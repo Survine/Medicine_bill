@@ -14,7 +14,7 @@ class Bill:
         return total
 
     def print_bill(self):
-        print("Bill Details:")
+        print("\nBill Details:")
         print(f"User: {self.user.name}")
         print(f"Bill Date: {self.bill_date}")
         print("\nMedicine List:")
